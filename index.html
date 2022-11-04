@@ -23,12 +23,11 @@
       <nav class="navigation navigation__container">
         <div class="logo-wraper">
           <a class="logo header__logo link" href="./index.html">Web<span
-            class="logo__span logo__span--dark">Studio</span></a>
-            <svg class="menu-svg" width="24" height="16">
-              <use href="./images/symbol-defs.svg#icon-menu"></use>
-            </svg>
+              class="logo__span logo__span--dark">Studio</span></a>
+          <svg class="menu-svg" width="24" height="16">
+            <use href="./images/symbol-defs.svg#icon-menu"></use>
+          </svg>
         </div>
-        
 
         <ul class="main-menu list">
           <li class="main-menu__item">
@@ -111,7 +110,7 @@
               </label>
 
               <label class="modal__form-fild modal__form-fild--policy">
-                <input class="modal__policy-checkbox visually-hidden" type="checkbox" name="policy" value="policy"/>
+                <input class="modal__policy-checkbox visually-hidden" type="checkbox" name="policy" value="policy" />
                 <svg class="modal__policy-icon" width="16" height="15">
                   <use href="./images/symbol-defs.svg#icon-check"></use>
                 </svg>
@@ -217,7 +216,24 @@
         <h2 class="team-titel">Наша команда</h2>
         <ul class="team-list list">
           <li class="team-list-item">
-            <img class="team-image" src="./images/team/product-designer.jpg" alt="продакт дизайнер" width="270" />
+            <picture>
+              <source srcset="
+                    ./images/team/product-designer.jpg    1x,
+                    ./images/team/product-designer-2x.jpg 2x
+                  " media="(min-width: 1200px)" />
+
+              <source srcset="
+                    ./images/team/product-designer-tab.jpg    1x,
+                    ./images/team/product-designer-tab-2x.jpg 2x
+                  " media="(min-width: 768px)" />
+
+              <source srcset="
+                    ./images/team/product-designer-mob.jpg    1x,
+                    ./images/team/product-designer-mob-2x.jpg 2x
+                  " media="(max-width: 767px)" />
+
+              <img class="team-image" src="./images/team/product-designer.jpg" alt="продакт дизайнер" width="270" />
+            </picture>
             <h3 class="team-undertitel">Ігор Дем'яненко</h3>
             <p class="team-text">Product Designer</p>
             <ul class="team-soc-list list">
@@ -245,7 +261,25 @@
             </ul>
           </li>
           <li class="team-list-item">
-            <img class="team-image" src="./images/team/frontend-developer.jpg" alt="фронтенд розробник" width="270" />
+            <picture>
+              <source srcset="
+                    ./images/team/frontend-developer.jpg 1x,
+                    ./images/team/frontend-developer.jpg 2x
+                  " media="(min-width: 1200px)" />
+
+              <source srcset="
+                    ./images/team/frontend-developer-tab.jpg    1x,
+                    ./images/team/frontend-developer-tab-2x.jpg 2x
+                  " media="(min-width: 768px)" />
+
+              <source srcset="
+                    ./images/team/frontend-developer-mob.jpg    1x,
+                    ./images/team/frontend-developer-mob-2x.jpg 2x
+                  " media="(max-width: 767px)" />
+
+              <img class="team-image" src="./images/team/frontend-developer.jpg" alt="фронтенд розробник" width="270" />
+            </picture>
+
             <h3 class="team-undertitel">Ольга Рєпіна</h3>
             <p class="team-text">Frontend Developer</p>
             <ul class="team-soc-list list">
@@ -273,7 +307,19 @@
             </ul>
           </li>
           <li class="team-list-item">
-            <img class="team-image" src="./images/team/marketing.jpg" alt="маркетолог" width="270" />
+            <picture>
+              <source srcset="./images/team/marketing.jpg 1x, ./images/team/marketing.jpg 2x"
+                media="(min-width: 1200px)" />
+
+              <source srcset="./images/team/marketing-tab.jpg 1x, ./images/team/marketing-tab-2x.jpg 2x"
+                media="(min-width: 768px)" />
+
+              <source srcset="./images/team/marketing-mob.jpg 1x, ./images/team/marketing-mob-2x.jpg 2x"
+                media="(max-width: 767px)" />
+
+              <img class="team-image" src="./images/team/marketing.jpg" alt="маркетолог" width="270" />
+            </picture>
+
             <h3 class="team-undertitel">Микола Тарасов</h3>
             <p class="team-text">Marketing</p>
             <ul class="team-soc-list list">
@@ -301,7 +347,23 @@
             </ul>
           </li>
           <li class="team-list-item">
-            <img class="team-image" src="./images/team/uI-designer.jpg" alt="UI-дизайнер" width="270" />
+            <picture>
+              <source srcset="./images/team/uI-designer.jpg 1x, ./images/team/uI-designer-2x.jpg 2x"
+                media="(min-width: 1200px)" />
+
+              <source srcset="
+                    ./images/team/uI-designer-tab.jpg    1x,
+                    ./images/team/uI-designer-tab-2x.jpg 2x
+                  " media="(min-width: 768px)" />
+
+              <source srcset="
+                    ./images/team/uI-designer-mob.jpg    1x,
+                    ./images/team/uI-designer-mob-2x.jpg 2x
+                  " media="(max-width: 767px)" />
+
+              <img class="team-image" src="./images/team/uI-designer.jpg" alt="UI-дизайнер" width="270" />
+            </picture>
+
             <h3 class="team-undertitel">Михайло Єрмаков</h3>
             <p class="team-text">UI Designer</p>
             <ul class="team-soc-list list">

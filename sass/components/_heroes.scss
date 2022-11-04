@@ -8,11 +8,16 @@
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/heroes-background.jpg);
+    url(../../images/heroes-background-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: var(--color-background-heroes);
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../../images/heroes-background-mob-2x.jpg);
+  }
 
   @media screen and (min-width: 480px) {
     max-width: 480px;
@@ -22,6 +27,13 @@
   @media screen and (min-width: 768px) {
     max-width: 768px;
     min-height: 400px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../../images/heroes-background-tab.jpg);
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../../images/heroes-background-tab-2x.jpg);
+    }
   }
 
   @media screen and (min-width: 1200px) {
@@ -30,6 +42,14 @@
 
     max-width: 1600px;
     min-height: 600px;
+
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../../images/heroes-background.jpg);
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../../images/heroes-background-2x.jpg);
+    }
   }
 }
 
