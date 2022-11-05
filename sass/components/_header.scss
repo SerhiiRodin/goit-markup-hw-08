@@ -101,13 +101,16 @@
     display: none;
   }
 
-  // > .container {
-  //   height: 100%;
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: space-between;
-  //   overflow: auto;
-  // }
+  > .container {
+    padding-left: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+  }
+
+  // display: none;
 }
 
 .menu-close-button {
@@ -184,6 +187,7 @@
 
 .mob-soc-menu {
   display: flex;
+  flex-wrap: wrap;
   // justify-content: center;
   align-items: center;
 }
@@ -217,6 +221,7 @@
   height: 22px;
   background-color: rgba(33, 33, 33, 0.2);
 }
+
 
 // ---------------------------------------
 

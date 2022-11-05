@@ -168,6 +168,14 @@ body {
     display: none;
   }
 }
+.mob-menu > .container {
+  padding-left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+}
 
 .menu-close-button {
   position: absolute;
@@ -231,6 +239,7 @@ body {
 
 .mob-soc-menu {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
