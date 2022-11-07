@@ -28,11 +28,11 @@
     max-width: 768px;
     min-height: 400px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../../images/heroes-background-tab.jpg);
+      url(../images/heroes-background-tab.jpg);
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../../images/heroes-background-tab-2x.jpg);
+        url(../images/heroes-background-tab-2x.jpg);
     }
   }
 
@@ -54,11 +54,11 @@
     min-height: 600px;
 
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../../images/heroes-background.jpg);
+      url(../images/heroes-background.jpg);
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../../images/heroes-background-2x.jpg);
+        url(../images/heroes-background-2x.jpg);
     }
   }
 
