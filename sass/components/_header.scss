@@ -1,5 +1,10 @@
 .header {
   border-bottom: 1px solid var(--color-border-head);
+
+  @media screen and (max-width: 767px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 .header__container {
@@ -86,6 +91,8 @@
   padding-top: 48px;
   padding-bottom: 48px;
   z-index: 1;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   @media screen and (min-width: 768px) {
     display: none;
