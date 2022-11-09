@@ -20,12 +20,18 @@
   }
 
   @media screen and (min-width: 480px) {
+    //адаптивная
     max-width: 480px;
+    //отзывчивая (тянется)
+    //max-width: 100%;
     min-height: 400px;
   }
 
   @media screen and (min-width: 768px) {
+    //адаптивная
     max-width: 768px;
+    //отзывчивая (тянется)
+    //max-width: 100%;
     min-height: 400px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/heroes-background-tab.jpg);
